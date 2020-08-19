@@ -27,7 +27,7 @@ If you find your issue already exists, make relevant comments and add your [reac
 
 If you cannot find an existing issue that describes your bug or feature, create a new issue using the guidelines below.
 
-### Writing Good Bug Reports and Feature Requests
+### Writing Good Bug Reports
 
 File a single issue per problem and feature request. Do not enumerate multiple bugs or feature requests in the same issue.
 
@@ -49,29 +49,11 @@ Please include the following with each issue:
 
   * **Note:** Because the developers need to copy and paste the code snippet, including a code snippet as a media file (i.e. .gif) is not sufficient.
 
-### Final Checklist
-
-Please remember to do the following:
-
-* [ ] Search the issue repository to ensure your report is a new issue
-
-* [ ] Simplify your code around the issue to better isolate the problem
-
 Don't feel bad if the developers can't reproduce the issue right away. They will simply ask for more information!
 
 ### Follow Your Issue
 
 Once submitted, your report will go into the [issue tracking](https://github.com/Microsoft/vscode/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so you know what to expect, and how to continue to assist throughout the process.
-
-## Automated Issue Management
-
-We use GitHub Actions to help us manage issues. These Actions and their descriptions can be [viewed here](https://github.com/microsoft/vscode-github-triage-actions). Some examples of what these Actions do are:
-
-* Automatically closes any issue marked `needs-more-info` if there has been no response in the past 7 days.
-* Automatically lock issues 45 days after they are closed.
-* Automatically implement the VS Code [feature request pipeline](https://github.com/microsoft/vscode/wiki/Issues-Triaging#managing-feature-requests).
-
-If you believe the bot got something wrong, please open a new issue and let us know.
 
 # Thank You!
 
