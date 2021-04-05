@@ -2,8 +2,6 @@
 
 Welcome, and thank you for your interest in contributing to SoftwareCats.GitHub.Io!
 
-Since this is an enterprise website, we would not be accepting any code contributions. However, if you do experience any problems feel free to open an issue.
-
 ## Asking Questions
 
 Have a question? Rather than opening an issue, please ask away on our [support page](https://softwarecats.github.io/support/).
