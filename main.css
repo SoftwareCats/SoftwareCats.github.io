@@ -1,0 +1,18 @@
+:root{
+    --accent: #71aff8;
+    --accent-secondary: #91b9e6;
+    --background: #24292e;
+    --background-secondary: #1f2428;
+    --text: #e0e2e5;
+    --text-secondary: #6a7370;
+}
+
+body {
+    background-color: var(--background-secondary);
+    color: var(--text);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: var(--accent-secondary)
+}
