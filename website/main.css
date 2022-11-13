@@ -1,0 +1,48 @@
+:root{
+    --accent: #71aff8;
+    --accent-secondary: #91b9e6;
+    --accent-tertiary: #71b0f8a2;
+    --background: #24292e;
+    --background-secondary: #1f2428;
+    --background-tertiary: #000000;
+    --text: #e0e2e5;
+    --text-secondary: #6a7370;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: var(--accent-secondary)
+}
+
+nav {
+    background-color: var(--background-secondary);
+    border: var(--background-tertiary) 1px solid;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px; /*top right bottom left*/
+}
+
+nav > ul > li > a {
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 10px 20px 10px 20px; /*top right bottom left*/
+    transition: background-color 0.75s ease-in;
+}
+
+nav > ul > li > a:hover {
+    background-color: var(--accent-tertiary);
+}

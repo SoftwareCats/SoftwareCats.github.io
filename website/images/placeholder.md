@@ -1,0 +1,1 @@
+# I am a placeholder since there are no images here yet
