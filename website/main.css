@@ -2,8 +2,8 @@
     --accent: #71aff8;
     --accent-secondary: #91b9e6;
     --accent-tertiary: #71b0f8a2;
-    --background: #24292e;
-    --background-secondary: #1f2428;
+    --background: #1f2428;
+    --background-secondary: #24292e;
     --background-tertiary: #000000;
     --text: #e0e2e5;
     --text-secondary: #6a7370;
@@ -21,7 +21,8 @@ h1 {
 }
 
 nav {
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
+    /* Need a border here or won't fill up top */
     border: var(--background-tertiary) 1px solid;
 }
 
