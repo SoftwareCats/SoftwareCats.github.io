@@ -9,6 +9,7 @@
     --text-secondary: #6a7370;
 }
 
+/* To make sizing easier */
 * {box-sizing: border-box;}
 
 body {
@@ -26,7 +27,9 @@ nav {
     background-color: var(--background-tertiary);
     width: 100%;
     /* Need a border here or won't fill up top, don't wanna top: 0 it */
-    border: var(--background-tertiary) 1px solid;
+    /* border: var(--background-tertiary) 1px solid; */
+    position: fixed;
+    top: 0;
 }
 
 nav > ul {
