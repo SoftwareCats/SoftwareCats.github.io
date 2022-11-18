@@ -9,6 +9,8 @@
     --text-secondary: #6a7370;
 }
 
+* {box-sizing: border-box;}
+
 body {
     margin: 0;
     background-color: var(--background);
@@ -42,7 +44,7 @@ nav > ul > li > a {
     text-decoration: none;
     border-radius: 5%;
     padding: 10px 20px 10px 20px; /*top right bottom left*/
-    transition: background-color 0.75s ease-in;
+    transition: background-color 0.6s ease;
 }
 
 nav > ul > li > a:hover {
