@@ -1,12 +1,12 @@
 :root{
     --accent: #71aff8;
-    --accent-secondary: #91b9e6;
-    --accent-tertiary: #71b0f8a2;
+    --accent-secondary: #71b0f8c0;
     --background: #1f2428;
     --background-secondary: #24292e;
     --background-tertiary: #000000a2;
     --text: #e0e2e5;
-    --text-secondary: #6a7370;
+    --text-secondary: #91b9e6;
+    --text-dimmed: #6a7370;
 }
 
 /* To make sizing easier */
@@ -19,16 +19,38 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    color: var(--accent-secondary);
-    margin-top: 100px;
+article {
+    background-color: var(--background-secondary);
+    margin: 0 5% 0 5%; /* top right bottom left */
+    padding: 10px 3% 10px 3%;
 }
 
+h1 {
+    color: var(--text);
+    margin-top: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--text-secondary);
+}
+
+p {
+    line-height: 150%;
+}
+
+p.subtitle {
+    color: var(--text-dimmed);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Add some fancy js animation for the nav bar later */
 nav {
     background-color: var(--background-tertiary);
     width: 100%;
     /* Need a border here or won't fill up top, don't wanna top: 0 it */
-    /* border: var(--background-tertiary) 1px solid; */
     position: fixed;
     top: 0;
 }
@@ -52,5 +74,5 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    background-color: var(--accent-tertiary);
+    background-color: var(--accent-secondary);
 }
