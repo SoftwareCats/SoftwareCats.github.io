@@ -71,6 +71,7 @@ nav > ul > li > a {
     text-decoration: none;
     font-size: 16px;
     padding: 5px 20px 5px 20px; /*top right bottom left*/
+    transition: color 0.3s ease-in-out;
 }
 
 div.nav-underline{
@@ -84,4 +85,8 @@ div.nav-underline{
 
 nav > ul > li:hover > div.nav-underline {
     width: 80%;
+}
+
+nav > ul > li:hover > a {
+    color: var(--text-secondary);
 }
