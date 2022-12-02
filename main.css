@@ -62,7 +62,7 @@ div.nav-underline, div.nav-underlined {
 
 div.nav-underlined {
     background-color: var(--accent-secondary);
-    width: 65px;
+    width: 75px;
 }
 
 nav > ul > li:hover > div.nav-underline {
