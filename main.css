@@ -1,6 +1,6 @@
 :root{
     --accent: #71aff8;
-    --accent-secondary: #71b0f8c0;
+    --accent-secondary: #71b0f8aa;
     --background: #1f2428;
     --background-secondary: #24292e;
     --background-tertiary: #000000a2;
@@ -74,17 +74,22 @@ nav > ul > li > a {
     transition: color 0.3s ease-out;
 }
 
-div.nav-underline{
+div.nav-underline, div.nav-underlined {
     width: 0;
-    margin: 5px auto 0 auto;
+    margin: 5px auto 0 auto; /*top right bottom left*/
     text-align: center;
     height: 3px;
     background-color: var(--accent);
     transition: width 0.3s ease-out;
 }
 
+div.nav-underlined {
+    background-color: var(--accent-secondary);
+    width: 60%;
+}
+
 nav > ul > li:hover > div.nav-underline {
-    width: 80%;
+    width: 75%;
 }
 
 nav > ul > li:hover > a {
