@@ -75,9 +75,9 @@ nav > ul > li:hover > a {
 
 article {
     background-color: var(--background-secondary);
-    margin: 0 80px 0 80px; /* top right bottom left */
+    margin: 50px 80px 50px 80px; /* top right bottom left */
     padding: 20px 40px 20px 40px; /* top right bottom left */
-    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -99,4 +99,8 @@ p.subtitle {
     color: var(--text-dimmed);
     font-size: 20px;
     text-align: center;
+}
+
+p.dimmed {
+    color: var(--text-dimmed)
 }
