@@ -57,7 +57,7 @@ nav > ul {
 
 nav > ul > li {
     display: inline-block;
-    padding: 0px 15px 0px 15px; /*top right bottom left*/
+    /* padding: 0px 15px 0px 15px; top right bottom left */
     width: 130px;
 }
 
@@ -66,19 +66,17 @@ nav > ul > li > a {
     text-decoration: none;
     font-size: 18px;
     line-height: 45px;
-    padding: 0px 20px 0px 20px; /*top right bottom left*/
-<<<<<<< Updated upstream
-    transition: color 0.3s ease-out;
-=======
+    padding: 15px 20px 15px 20px; /*top right bottom left*/
     transition: color 0.5s ease-in-out 0.2s;
+
+    /* background-color: white; */
 }
 
-nav > ul > li:hover > a {
+nav > ul > li > a:hover {
     color: var(--text-secondary);
->>>>>>> Stashed changes
 }
 
-nav > ul > li:hover > a.current-link {
+nav > ul > li > a.current-link:hover {
     color: var(--text-tertiary);
 }
 
@@ -96,12 +94,12 @@ div.nav-underlined {
     width: 75px;
 }
 
-nav > ul > li:hover > div.nav-underline {
+nav > ul > li > a:hover + div.nav-underline {
     width: 75px;
 }
 
-nav > ul > li:hover > a {
-    color: var(--text-secondary);
+nav > ul > li > a:hover + div.nav-underlined {
+    width: 0;
 }
 
 article {
@@ -134,9 +132,6 @@ p.subtitle {
 
 p.dimmed {
     color: var(--text-dimmed)
-<<<<<<< Updated upstream
-}
-=======
 }
 
 div.blog-container {
