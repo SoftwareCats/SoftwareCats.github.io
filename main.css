@@ -68,8 +68,6 @@ nav > ul > li > a {
     line-height: 45px;
     padding: 15px 20px 15px 20px; /*top right bottom left*/
     transition: color 0.5s ease-in-out 0.2s;
-
-    /* background-color: white; */
 }
 
 nav > ul > li > a:hover {
