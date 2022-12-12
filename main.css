@@ -67,26 +67,19 @@ nav > ul > li > a {
     font-size: 18px;
     line-height: 45px;
     padding: 0px 20px 0px 20px; /*top right bottom left*/
-<<<<<<< HEAD
 <<<<<<< Updated upstream
     transition: color 0.3s ease-out;
 =======
     transition: color 0.5s ease-in-out 0.2s;
-=======
-    transition: color 0.7s ease-in-out;
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 nav > ul > li:hover > a {
     color: var(--text-secondary);
-<<<<<<< HEAD
 >>>>>>> Stashed changes
 }
 
 nav > ul > li:hover > a.current-link {
     color: var(--text-tertiary);
-=======
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 div.nav-underline, div.nav-underlined {
@@ -107,18 +100,10 @@ nav > ul > li:hover > div.nav-underline {
     width: 75px;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 nav > ul > li:hover > a {
     color: var(--text-secondary);
-=======
-nav > ul > li:hover > div.nav-underlined {
-    width: 0;
->>>>>>> Stashed changes
 }
 
-=======
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 article {
     background-color: var(--background-secondary);
     margin: 50px 80px 50px 80px; /* top right bottom left */
@@ -149,12 +134,9 @@ p.subtitle {
 
 p.dimmed {
     color: var(--text-dimmed)
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 }
 =======
-=======
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 div.blog-container {
@@ -168,11 +150,7 @@ div.blog-container {
 
 article.blog-post {
     overflow: auto;
-<<<<<<< HEAD
     flex-basis: 325px;
-=======
-    flex-basis: 300px;
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
     height: 200px;
     margin: 50px 20px 50px 20px; /* top right bottom left */
     /* Firefox scrollbar */
@@ -192,7 +170,3 @@ article.blog-post::-webkit-scrollbar-track {
 article.blog-post::-webkit-scrollbar-thumb {
     background-color: var(--text-dimmed);
 }
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
