@@ -1,4 +1,5 @@
 :root{
+    /* Colors */
     --accent: #71aff8;
     --accent-secondary: #7a71f8;
     --background: #1f2428;
@@ -8,6 +9,23 @@
     --text-secondary: #91aff8;
     --text-tertiary: #ab71f8;
     --text-dimmed: #6a7370;
+    
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-dimmed) var(--background-secondary);
+}
+
+/* Scrollbar for other browsers */
+:root::-webkit-scrollbar {
+    width: 8px;
+}
+
+:root::-webkit-scrollbar-track {
+    background-color: var(--background-secondary);
+}
+
+:root::-webkit-scrollbar-thumb {
+    background-color: var(--text-dimmed);
 }
 
 /* To make sizing easier */
@@ -49,26 +67,33 @@ nav > ul > li > a {
     font-size: 18px;
     line-height: 45px;
     padding: 0px 20px 0px 20px; /*top right bottom left*/
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     transition: color 0.3s ease-out;
 =======
     transition: color 0.5s ease-in-out 0.2s;
+=======
+    transition: color 0.7s ease-in-out;
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 nav > ul > li:hover > a {
     color: var(--text-secondary);
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 }
 
 nav > ul > li:hover > a.current-link {
     color: var(--text-tertiary);
+=======
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 div.nav-underline, div.nav-underlined {
     width: 0px;
-    margin: -5px auto 0 auto; /*top right bottom left*/
+    margin: -4px auto 0 auto; /*top right bottom left*/
     text-align: center;
-    height: 3px;
+    height: 4px;
     background-color: var(--accent);
     transition: width 0.3s ease-out;
 }
@@ -82,6 +107,7 @@ nav > ul > li:hover > div.nav-underline {
     width: 75px;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 nav > ul > li:hover > a {
     color: var(--text-secondary);
@@ -91,11 +117,13 @@ nav > ul > li:hover > div.nav-underlined {
 >>>>>>> Stashed changes
 }
 
+=======
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 article {
     background-color: var(--background-secondary);
     margin: 50px 80px 50px 80px; /* top right bottom left */
     padding: 20px 40px 20px 40px; /* top right bottom left */
-    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -121,9 +149,12 @@ p.subtitle {
 
 p.dimmed {
     color: var(--text-dimmed)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 }
 =======
+=======
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
 }
 
 div.blog-container {
@@ -137,7 +168,11 @@ div.blog-container {
 
 article.blog-post {
     overflow: auto;
+<<<<<<< HEAD
     flex-basis: 325px;
+=======
+    flex-basis: 300px;
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
     height: 200px;
     margin: 50px 20px 50px 20px; /* top right bottom left */
     /* Firefox scrollbar */
@@ -157,4 +192,7 @@ article.blog-post::-webkit-scrollbar-track {
 article.blog-post::-webkit-scrollbar-thumb {
     background-color: var(--text-dimmed);
 }
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 5e7b263fc06ae3ba82605aa7b0031b3d7b74f5b8
