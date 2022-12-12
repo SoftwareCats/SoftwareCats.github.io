@@ -5,7 +5,8 @@
     --background-secondary: #24292e;
     --background-tertiary: #0000008a;
     --text: #e0e2e5;
-    --text-secondary: #91b9e6;
+    --text-secondary: #91aff8;
+    --text-tertiary: #ab71f8;
     --text-dimmed: #6a7370;
 }
 
@@ -48,7 +49,19 @@ nav > ul > li > a {
     font-size: 18px;
     line-height: 45px;
     padding: 0px 20px 0px 20px; /*top right bottom left*/
+<<<<<<< Updated upstream
     transition: color 0.3s ease-out;
+=======
+    transition: color 0.5s ease-in-out 0.2s;
+}
+
+nav > ul > li:hover > a {
+    color: var(--text-secondary);
+>>>>>>> Stashed changes
+}
+
+nav > ul > li:hover > a.current-link {
+    color: var(--text-tertiary);
 }
 
 div.nav-underline, div.nav-underlined {
@@ -69,8 +82,13 @@ nav > ul > li:hover > div.nav-underline {
     width: 75px;
 }
 
+<<<<<<< Updated upstream
 nav > ul > li:hover > a {
     color: var(--text-secondary);
+=======
+nav > ul > li:hover > div.nav-underlined {
+    width: 0;
+>>>>>>> Stashed changes
 }
 
 article {
@@ -103,4 +121,40 @@ p.subtitle {
 
 p.dimmed {
     color: var(--text-dimmed)
+<<<<<<< Updated upstream
 }
+=======
+}
+
+div.blog-container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article.blog-post {
+    overflow: auto;
+    flex-basis: 325px;
+    height: 200px;
+    margin: 50px 20px 50px 20px; /* top right bottom left */
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-dimmed) var(--background-secondary);
+}
+
+/* Scrollbar for other browsers */
+article.blog-post::-webkit-scrollbar {
+    width: 8px;
+}
+
+article.blog-post::-webkit-scrollbar-track {
+    background-color: var(--background-secondary);
+}
+
+article.blog-post::-webkit-scrollbar-thumb {
+    background-color: var(--text-dimmed);
+}
+>>>>>>> Stashed changes
