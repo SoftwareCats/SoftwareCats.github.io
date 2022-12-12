@@ -1,4 +1,5 @@
 :root{
+    /* Colors */
     --accent: #71aff8;
     --accent-secondary: #7a71f8;
     --background: #1f2428;
@@ -7,6 +8,23 @@
     --text: #e0e2e5;
     --text-secondary: #91b9e6;
     --text-dimmed: #6a7370;
+    
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-dimmed) var(--background-secondary);
+}
+
+/* Scrollbar for other browsers */
+:root::-webkit-scrollbar {
+    width: 8px;
+}
+
+:root::-webkit-scrollbar-track {
+    background-color: var(--background-secondary);
+}
+
+:root::-webkit-scrollbar-thumb {
+    background-color: var(--text-dimmed);
 }
 
 /* To make sizing easier */
@@ -48,14 +66,18 @@ nav > ul > li > a {
     font-size: 18px;
     line-height: 45px;
     padding: 0px 20px 0px 20px; /*top right bottom left*/
-    transition: color 0.3s ease-out;
+    transition: color 0.7s ease-in-out;
+}
+
+nav > ul > li:hover > a {
+    color: var(--text-secondary);
 }
 
 div.nav-underline, div.nav-underlined {
     width: 0px;
-    margin: -5px auto 0 auto; /*top right bottom left*/
+    margin: -4px auto 0 auto; /*top right bottom left*/
     text-align: center;
-    height: 3px;
+    height: 4px;
     background-color: var(--accent);
     transition: width 0.3s ease-out;
 }
@@ -69,15 +91,11 @@ nav > ul > li:hover > div.nav-underline {
     width: 75px;
 }
 
-nav > ul > li:hover > a {
-    color: var(--text-secondary);
-}
-
 article {
     background-color: var(--background-secondary);
     margin: 50px 80px 50px 80px; /* top right bottom left */
     padding: 20px 40px 20px 40px; /* top right bottom left */
-    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -103,4 +121,36 @@ p.subtitle {
 
 p.dimmed {
     color: var(--text-dimmed)
+}
+
+div.blog-container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article.blog-post {
+    overflow: auto;
+    flex-basis: 300px;
+    height: 200px;
+    margin: 50px 20px 50px 20px; /* top right bottom left */
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-dimmed) var(--background-secondary);
+}
+
+/* Scrollbar for other browsers */
+article.blog-post::-webkit-scrollbar {
+    width: 8px;
+}
+
+article.blog-post::-webkit-scrollbar-track {
+    background-color: var(--background-secondary);
+}
+
+article.blog-post::-webkit-scrollbar-thumb {
+    background-color: var(--text-dimmed);
 }
