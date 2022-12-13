@@ -17,7 +17,7 @@
 
 /* Scrollbar for other browsers */
 :root::-webkit-scrollbar {
-    width: 8px;
+    width: 0.625vw;
 }
 
 :root::-webkit-scrollbar-track {
@@ -32,7 +32,7 @@
 * {box-sizing: border-box;}
 
 body {
-    margin: 0 0 50px 0; /* top right bottom left */
+    margin: 0 0 7vh 0;
     background-color: var(--background);
     color: var(--text);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,7 +46,7 @@ nav {
     top: 0;
     -webkit-backdrop-filter: blur(5px) brightness(85%);
     backdrop-filter: blur(5px) brightness(85%);
-    box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.4);
 }
 
 nav > ul {
@@ -102,7 +102,7 @@ nav > ul > li > a:hover + div.nav-underlined {
 
 article {
     background-color: var(--background-secondary);
-    margin: 50px 80px 50px 80px; /* top right bottom left */
+    margin: 7vh 6.25vw 7vh 6.25vw; /* top right bottom left */
     padding: 20px 40px 20px 40px; /* top right bottom left */
     box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.3);
 }
