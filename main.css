@@ -144,8 +144,8 @@ div.blog-container {
 article.blog-post {
     overflow: auto;
     flex-basis: 325px;
-    height: 200px;
-    margin: 50px 20px 50px 20px; /* top right bottom left */
+    height: 275px;
+    margin: 50px 3% 50px 3%; /* top right bottom left */
     /* Firefox scrollbar */
     scrollbar-width: thin;
     scrollbar-color: var(--text-dimmed) var(--background-secondary);
